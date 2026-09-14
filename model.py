@@ -1,7 +1,7 @@
 import os
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
-MODEL_NAME = os.getenv("NER_MODEL_NAME", "enifimov81k/yakut-ner-mbert")
+MODEL_NAME = os.getenv("NER_MODEL_NAME", "enifimov/yakut-ner-api")
 
 
 class NERModel:
